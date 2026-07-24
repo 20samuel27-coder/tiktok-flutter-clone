@@ -17,9 +17,9 @@ List pages = [
 ];
 
 // COLORS
-const backgroundColor = Colors.black;
-var buttonColor = Colors.red[400];
-const borderColor = Colors.grey;
+const backgroundColor = Color(0xFF0A0A0A);
+var buttonColor = Color(0xFF2563EB);
+const borderColor = Color(0xFF27272A);
 
 // FIREBASE
 var firebaseAuth = FirebaseAuth.instance;
