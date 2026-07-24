@@ -1,7 +1,7 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:get/get.dart';
-import 'package:tiktok_tutorial/constants.dart';
-import 'package:tiktok_tutorial/models/comment.dart';
+import 'package:affchat/constants.dart';
+import 'package:affchat/models/comment.dart';
 
 class CommentController extends GetxController {
   final Rx<List<Comment>> _comments = Rx<List<Comment>>([]);
